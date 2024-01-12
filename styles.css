@@ -1,0 +1,32 @@
+body {
+    background: rgb(255, 212, 212);
+    font-family: Arial;
+}
+
+.counter__header {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(162, 43, 43);
+}
+
+.counter__container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.counter__button {
+    background: rgb(190, 61, 61);
+    border: none;
+    padding: 1rem;
+    color: rgb(255, 212, 212);
+    font-size: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.counter__subheader {
+    font-size: 3rem;
+    color: rgb(162, 43, 43);
+}
